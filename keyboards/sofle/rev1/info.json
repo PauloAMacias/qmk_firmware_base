@@ -1,8 +1,8 @@
 {
-    "keyboard_name": "Sofle",
-    "manufacturer": "JosefAdamcik",
-    "url": "https://github.com/josefadamcik/SofleKeyboard",
-    "maintainer": "Josef Adamcik <josef.adamcik@gmail.com>",
+    "keyboard_name": "Sofle_iSIAM",
+    "manufacturer": "iSIAMadness",
+    "url": "https://github.com/PauloAMacias/qmk_firmware_base/tree/Sofle_iSIAMadness/keyboards/sofle/keymaps/iSIAMadnessRP2040",
+    "maintainer": "iSIAMadness",
     "usb": {
         "vid": "0xFC32",
         "pid": "0x0287",
@@ -34,8 +34,8 @@
     "qmk": {
         "tap_keycode_delay": 10
     },
-    "processor": "atmega32u4",
-    "bootloader": "caterina",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
     "layouts": {
         "LAYOUT": {
             "layout": [
