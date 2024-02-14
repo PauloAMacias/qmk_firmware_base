@@ -364,7 +364,7 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
             } else {
                 rgb_matrix_increase_sat();
             }
-        }
+        }                                         
     } else if (is_ctrl) {
         if (index == 0) { /* First encoder */
             if (clockwise) {
